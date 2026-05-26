@@ -41,23 +41,23 @@ The application teaches:
 
 | Folder/File | Purpose |
 |---|---|
-| [force-app/main/default](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default>) | Salesforce source metadata |
-| [objects](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects>) | Data model: objects, fields, list views |
-| [classes](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/classes>) | Apex backend and Apex tests |
-| [lwc](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc>) | Lightning Web Components and Jest tests |
-| [flexipages](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/flexipages>) | Lightning App Builder pages |
-| [layouts](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/layouts>) | Record page layouts |
-| [applications](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/applications>) | E-Bikes Lightning application |
-| [tabs](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/tabs>) | Navigation tabs |
-| [permissionsets](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/permissionsets>) | User permissions |
-| [messageChannels](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/messageChannels>) | LWC cross-component messages |
-| [experiences/E_Bikes1](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/experiences/E_Bikes1>) | Experience Builder bundle |
-| [networks](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/networks>) | Experience Cloud network |
-| [sites](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/sites>) | Salesforce Site metadata |
-| [data](</c:/Users/edzst/Github/ebikes-lwc/data>) | Accounts, product families, products, import plan |
-| [guest-profile-metadata](</c:/Users/edzst/Github/ebikes-lwc/guest-profile-metadata>) | Guest profile and sharing rules deployed after site publication |
-| [config/project-scratch-def.json](</c:/Users/edzst/Github/ebikes-lwc/config/project-scratch-def.json>) | Scratch-org configuration; useful reference for Developer Org setup |
-| [package.json](</c:/Users/edzst/Github/ebikes-lwc/package.json>) | Jest, ESLint, Prettier, and UTAM tooling |
+| [force-app/main/default](<../force-app/main/default>) | Salesforce source metadata |
+| [objects](<../force-app/main/default/objects>) | Data model: objects, fields, list views |
+| [classes](<../force-app/main/default/classes>) | Apex backend and Apex tests |
+| [lwc](<../force-app/main/default/lwc>) | Lightning Web Components and Jest tests |
+| [flexipages](<../force-app/main/default/flexipages>) | Lightning App Builder pages |
+| [layouts](<../force-app/main/default/layouts>) | Record page layouts |
+| [applications](<../force-app/main/default/applications>) | E-Bikes Lightning application |
+| [tabs](<../force-app/main/default/tabs>) | Navigation tabs |
+| [permissionsets](<../force-app/main/default/permissionsets>) | User permissions |
+| [messageChannels](<../force-app/main/default/messageChannels>) | LWC cross-component messages |
+| [experiences/E_Bikes1](<../force-app/main/default/experiences/E_Bikes1>) | Experience Builder bundle |
+| [networks](<../force-app/main/default/networks>) | Experience Cloud network |
+| [sites](<../force-app/main/default/sites>) | Salesforce Site metadata |
+| [data](<../data>) | Accounts, product families, products, import plan |
+| [guest-profile-metadata](<../guest-profile-metadata>) | Guest profile and sharing rules deployed after site publication |
+| [config/project-scratch-def.json](<../config/project-scratch-def.json>) | Scratch-org configuration; useful reference for Developer Org setup |
+| [package.json](<../package.json>) | Jest, ESLint, Prettier, and UTAM tooling |
 
 ---
 
@@ -157,12 +157,12 @@ ProductRecordInfoController Apex
 
 Relevant files:
 
-- [Product_Family__c](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Product_Family__c>)
-- [Product__c](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Product__c>)
-- [Order__c](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Order__c>)
-- [Order_Item__c](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Order_Item__c>)
-- [Manufacturing_Event__e](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Manufacturing_Event__e>)
-- [Case extensions](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Case>)
+- [Product_Family__c](<../force-app/main/default/objects/Product_Family__c>)
+- [Product__c](<../force-app/main/default/objects/Product__c>)
+- [Order__c](<../force-app/main/default/objects/Order__c>)
+- [Order_Item__c](<../force-app/main/default/objects/Order_Item__c>)
+- [Manufacturing_Event__e](<../force-app/main/default/objects/Manufacturing_Event__e>)
+- [Case extensions](<../force-app/main/default/objects/Case>)
 
 ---
 
@@ -187,7 +187,7 @@ Important learning points:
 - `@AuraEnabled(Cacheable=true)` allows LWC wire calls.
 - `ProductController` builds dynamic query criteria and paginates nine records per page.
 
-Files: [classes](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/classes>)
+Files: [classes](<../force-app/main/default/classes>)
 
 ---
 
@@ -229,7 +229,7 @@ Files: [classes](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/class
 | `heroDetails` | Button overlay that resolves and links to product/family records | `ProductRecordInfoController` |
 | `createCase` | Public-facing support Case form | Case fields and Experience site |
 
-Files: [lwc](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc>)
+Files: [lwc](<../force-app/main/default/lwc>)
 
 ---
 
@@ -367,9 +367,9 @@ In Setup:
 
 ### Files That Depend On This
 
-- [sites/E_Bikes.site-meta.xml](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/sites/E_Bikes.site-meta.xml>)
-- [networks/E-Bikes.network-meta.xml](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/networks/E-Bikes.network-meta.xml>)
-- [experiences/E_Bikes1](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/experiences/E_Bikes1>)
+- [sites/E_Bikes.site-meta.xml](<../force-app/main/default/sites/E_Bikes.site-meta.xml>)
+- [networks/E-Bikes.network-meta.xml](<../force-app/main/default/networks/E-Bikes.network-meta.xml>)
+- [experiences/E_Bikes1](<../force-app/main/default/experiences/E_Bikes1>)
 
 ### Verify
 
@@ -389,7 +389,7 @@ The checked-in site file contains a username and subdomain from the org where th
 
 ### File
 
-- [E_Bikes.site-meta.xml](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/sites/E_Bikes.site-meta.xml>)
+- [E_Bikes.site-meta.xml](<../force-app/main/default/sites/E_Bikes.site-meta.xml>)
 
 ### Values To Replace In Your Build Copy
 
@@ -423,7 +423,7 @@ Some org configurations already expose a Product field on Case, which can cause 
 
 ### Relevant File
 
-- [Case/Product__c.field-meta.xml](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Case/fields/Product__c.field-meta.xml>)
+- [Case/Product__c.field-meta.xml](<../force-app/main/default/objects/Case/fields/Product__c.field-meta.xml>)
 
 ### Verify In Setup
 
@@ -445,9 +445,9 @@ Open the project in VS Code and study its Salesforce configuration.
 
 | File | Purpose |
 |---|---|
-| [sfdx-project.json](</c:/Users/edzst/Github/ebikes-lwc/sfdx-project.json>) | Defines `force-app` as the package directory and API `65.0` |
-| [config/project-scratch-def.json](</c:/Users/edzst/Github/ebikes-lwc/config/project-scratch-def.json>) | Shows features used by the app |
-| [package.json](</c:/Users/edzst/Github/ebikes-lwc/package.json>) | JavaScript tooling and tests |
+| [sfdx-project.json](<../sfdx-project.json>) | Defines `force-app` as the package directory and API `65.0` |
+| [config/project-scratch-def.json](<../config/project-scratch-def.json>) | Shows features used by the app |
+| [package.json](<../package.json>) | JavaScript tooling and tests |
 
 ### Concept Learned
 
@@ -501,7 +501,7 @@ Products reference product families. Parent records and parent objects should ex
 
 ### Files
 
-- [Product_Family__c object folder](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Product_Family__c>)
+- [Product_Family__c object folder](<../force-app/main/default/objects/Product_Family__c>)
 
 ### Salesforce Concept
 
@@ -554,7 +554,7 @@ Products are the main catalog records and are required by Product Explorer, simi
 
 ### Files
 
-- [Product__c object folder](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Product__c>)
+- [Product__c object folder](<../force-app/main/default/objects/Product__c>)
 
 ### Salesforce Concept
 
@@ -605,7 +605,7 @@ The order parent must exist before creating order items.
 
 ### Files
 
-- [Order__c object folder](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Order__c>)
+- [Order__c object folder](<../force-app/main/default/objects/Order__c>)
 
 ### Salesforce Concept
 
@@ -653,7 +653,7 @@ The order builder manipulates line items, not the parent order directly.
 
 ### Files
 
-- [Order_Item__c object folder](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Order_Item__c>)
+- [Order_Item__c object folder](<../force-app/main/default/objects/Order_Item__c>)
 
 ### Salesforce Concept
 
@@ -690,7 +690,7 @@ The public Experience Cloud Case form depends on these fields.
 
 ### Files
 
-- [Case object extensions](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Case>)
+- [Case object extensions](<../force-app/main/default/objects/Case>)
 
 ### Salesforce Concept
 
@@ -725,8 +725,8 @@ Create high-volume platform event `Manufacturing_Event__e`.
 
 ### Files
 
-- [Manufacturing_Event__e](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects/Manufacturing_Event__e>)
-- [ChangeEvents_Order_ChangeEvent.platformEventChannelMember-meta.xml](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/platformEventChannelMembers/ChangeEvents_Order_ChangeEvent.platformEventChannelMember-meta.xml>)
+- [Manufacturing_Event__e](<../force-app/main/default/objects/Manufacturing_Event__e>)
+- [ChangeEvents_Order_ChangeEvent.platformEventChannelMember-meta.xml](<../force-app/main/default/platformEventChannelMembers/ChangeEvents_Order_ChangeEvent.platformEventChannelMember-meta.xml>)
 
 ### Salesforce Concept
 
@@ -768,7 +768,7 @@ The `ebikes` permission set grants internal users:
 
 ### File
 
-- [ebikes.permissionset-meta.xml](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/permissionsets/ebikes.permissionset-meta.xml>)
+- [ebikes.permissionset-meta.xml](<../force-app/main/default/permissionsets/ebikes.permissionset-meta.xml>)
 
 ### Why It Is Deployed Later
 
@@ -810,7 +810,7 @@ The public site guest security is deployed separately after the site exists.
 
 ### Files
 
-- [guest-profile-metadata](</c:/Users/edzst/Github/ebikes-lwc/guest-profile-metadata>)
+- [guest-profile-metadata](<../guest-profile-metadata>)
 
 ### Important Learning Checkpoint
 
@@ -866,9 +866,9 @@ The Product Explorer LWCs need a server-side query layer after objects and field
 
 ### Files
 
-- [PagedResult.cls](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/classes/PagedResult.cls>)
-- [ProductController.cls](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/classes/ProductController.cls>)
-- [TestProductController.cls](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/classes/TestProductController.cls>)
+- [PagedResult.cls](<../force-app/main/default/classes/PagedResult.cls>)
+- [ProductController.cls](<../force-app/main/default/classes/ProductController.cls>)
+- [TestProductController.cls](<../force-app/main/default/classes/TestProductController.cls>)
 
 ### Salesforce Concept
 
@@ -907,8 +907,8 @@ The order builder needs line items and related product image/price information.
 
 ### File
 
-- [OrderController.cls](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/classes/OrderController.cls>)
-- [TestOrderController.cls](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/classes/TestOrderController.cls>)
+- [OrderController.cls](<../force-app/main/default/classes/OrderController.cls>)
+- [TestOrderController.cls](<../force-app/main/default/classes/TestOrderController.cls>)
 
 ### Salesforce Concept
 
@@ -944,9 +944,9 @@ Experience Cloud pages are built later, but their Apex dependencies must exist b
 
 ### Files
 
-- [ProductRecordInfoController.cls](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/classes/ProductRecordInfoController.cls>)
-- [HeroDetailsPositionCustomPicklist.cls](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/classes/HeroDetailsPositionCustomPicklist.cls>)
-- [CommunitiesLandingController.cls](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/classes/CommunitiesLandingController.cls>)
+- [ProductRecordInfoController.cls](<../force-app/main/default/classes/ProductRecordInfoController.cls>)
+- [HeroDetailsPositionCustomPicklist.cls](<../force-app/main/default/classes/HeroDetailsPositionCustomPicklist.cls>)
+- [CommunitiesLandingController.cls](<../force-app/main/default/classes/CommunitiesLandingController.cls>)
 
 ### Test
 
@@ -976,7 +976,7 @@ Create these reusable components before feature containers:
 
 ### Files
 
-- [lwc shared bundles](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc>)
+- [lwc shared bundles](<../force-app/main/default/lwc>)
 
 ### Salesforce Concept
 
@@ -1016,7 +1016,7 @@ The Product Explorer components communicate without requiring direct parent-chil
 
 ### Files
 
-- [messageChannels](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/messageChannels>)
+- [messageChannels](<../force-app/main/default/messageChannels>)
 
 ### Salesforce Concept
 
@@ -1057,9 +1057,9 @@ User changes filter
 
 ### Files
 
-- [productFilter](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc/productFilter>)
-- [productTileList](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc/productTileList>)
-- [productCard](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc/productCard>)
+- [productFilter](<../force-app/main/default/lwc/productFilter>)
+- [productTileList](<../force-app/main/default/lwc/productTileList>)
+- [productCard](<../force-app/main/default/lwc/productCard>)
 
 ### Salesforce Concept
 
@@ -1107,7 +1107,7 @@ This feature requires Products, Product Families, and `ProductController.getSimi
 
 ### File
 
-- [similarProducts](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc/similarProducts>)
+- [similarProducts](<../force-app/main/default/lwc/similarProducts>)
 
 ### Salesforce Concept
 
@@ -1148,8 +1148,8 @@ Create `orderBuilder`.
 
 ### Files
 
-- [orderBuilder](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc/orderBuilder>)
-- [orderItemTile](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc/orderItemTile>)
+- [orderBuilder](<../force-app/main/default/lwc/orderBuilder>)
+- [orderItemTile](<../force-app/main/default/lwc/orderItemTile>)
 
 ### Salesforce Concept
 
@@ -1194,7 +1194,7 @@ It needs:
 
 ### File
 
-- [orderStatusPath](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc/orderStatusPath>)
+- [orderStatusPath](<../force-app/main/default/lwc/orderStatusPath>)
 
 ### Salesforce Concept
 
@@ -1234,10 +1234,10 @@ npm run test:unit -- --runTestsByPath force-app/main/default/lwc/orderStatusPath
 
 ### Files
 
-- [accountMap](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc/accountMap>)
-- [hero](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc/hero>)
-- [heroDetails](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc/heroDetails>)
-- [createCase](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/lwc/createCase>)
+- [accountMap](<../force-app/main/default/lwc/accountMap>)
+- [hero](<../force-app/main/default/lwc/hero>)
+- [heroDetails](<../force-app/main/default/lwc/heroDetails>)
+- [createCase](<../force-app/main/default/lwc/createCase>)
 
 ### Salesforce Concept
 
@@ -1277,8 +1277,8 @@ sf project deploy start --source-dir force-app/main/default/lwc/accountMap --sou
 
 ### Files
 
-- [layouts](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/layouts>)
-- Object `listViews` directories under [objects](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/objects>)
+- [layouts](<../force-app/main/default/layouts>)
+- Object `listViews` directories under [objects](<../force-app/main/default/objects>)
 
 ### Salesforce Concept
 
@@ -1309,8 +1309,8 @@ Open each object tab or Object Manager layout assignment and confirm the expecte
 
 ### Files
 
-- [flexipages](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/flexipages>)
-- [Aura three-region template](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/aura/pageTemplate_2_7_3>)
+- [flexipages](<../force-app/main/default/flexipages>)
+- [Aura three-region template](<../force-app/main/default/aura/pageTemplate_2_7_3>)
 
 ### Why Now
 
@@ -1364,9 +1364,9 @@ Product Families
 
 ### Files
 
-- [tabs](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/tabs>)
-- [EBikes.app-meta.xml](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/applications/EBikes.app-meta.xml>)
-- [contentassets/logo.asset-meta.xml](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/contentassets/logo.asset-meta.xml>)
+- [tabs](<../force-app/main/default/tabs>)
+- [EBikes.app-meta.xml](<../force-app/main/default/applications/EBikes.app-meta.xml>)
+- [contentassets/logo.asset-meta.xml](<../force-app/main/default/contentassets/logo.asset-meta.xml>)
 
 ### Salesforce Concept
 
@@ -1400,7 +1400,7 @@ The repository provides in-app guidance for:
 
 ### Files
 
-- [prompts](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/prompts>)
+- [prompts](<../force-app/main/default/prompts>)
 
 ### Salesforce Concept
 
@@ -1437,13 +1437,13 @@ Deploy:
 
 ### Files
 
-- [pages](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/pages>)
-- [sites](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/sites>)
-- [networks](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/networks>)
-- [experiences](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/experiences>)
-- [navigationMenus](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/navigationMenus>)
-- [networkBranding](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/networkBranding>)
-- [cspTrustedSites](</c:/Users/edzst/Github/ebikes-lwc/force-app/main/default/cspTrustedSites>)
+- [pages](<../force-app/main/default/pages>)
+- [sites](<../force-app/main/default/sites>)
+- [networks](<../force-app/main/default/networks>)
+- [experiences](<../force-app/main/default/experiences>)
+- [navigationMenus](<../force-app/main/default/navigationMenus>)
+- [networkBranding](<../force-app/main/default/networkBranding>)
+- [cspTrustedSites](<../force-app/main/default/cspTrustedSites>)
 
 ### Salesforce Concept
 
@@ -1532,10 +1532,10 @@ The sample data includes:
 
 ### Files
 
-- [Accounts.json](</c:/Users/edzst/Github/ebikes-lwc/data/Accounts.json>)
-- [Product_Family__cs.json](</c:/Users/edzst/Github/ebikes-lwc/data/Product_Family__cs.json>)
-- [Product__cs.json](</c:/Users/edzst/Github/ebikes-lwc/data/Product__cs.json>)
-- [sample-data-plan.json](</c:/Users/edzst/Github/ebikes-lwc/data/sample-data-plan.json>)
+- [Accounts.json](<../data/Accounts.json>)
+- [Product_Family__cs.json](<../data/Product_Family__cs.json>)
+- [Product__cs.json](<../data/Product__cs.json>)
+- [sample-data-plan.json](<../data/sample-data-plan.json>)
 
 ### Why This Order
 
@@ -1664,9 +1664,9 @@ The UTAM test opens Product Explorer and verifies:
 
 ### Files
 
-- [page-explorer.spec.js](</c:/Users/edzst/Github/ebikes-lwc/force-app/test/utam/page-explorer.spec.js>)
+- [page-explorer.spec.js](<../force-app/test/utam/page-explorer.spec.js>)
 - LWC `__utam__` page object definitions
-- [wdio.conf.js](</c:/Users/edzst/Github/ebikes-lwc/wdio.conf.js>)
+- [wdio.conf.js](<../wdio.conf.js>)
 
 ### Commands
 
